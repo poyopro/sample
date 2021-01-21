@@ -1,0 +1,87 @@
+/* ---------------------------------------------
+▼デスクトップファースト (全環境に共通のデザイン)
+--------------------------------------------- */
+
+html {
+    /* プロジェクトによって変動 */
+    color: #000;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "YuGothic", "游ゴシック", "メイリオ", Meiryo, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    font-size: 10px;
+    width: 100%;
+    overflow-x: hidden;
+    font-variant-numeric: tabular-nums;
+    /* safari hover対策 */
+    -webkit-font-smoothing: antialiased;
+}
+
+#wrapper {
+    margin: 0;
+    padding: 0;
+    border-top: solid 8px #6cc6c4;
+}
+
+
+/*------------------------------
+ページヘッダー
+------------------------------*/
+
+#header-wrapper {
+    margin: 0 auto 20px;
+    max-width: 920px;
+    text-align: left;
+}
+
+.page-header {
+    height: 200px;
+    position: relative;
+}
+
+.siteTitle {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.discription {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.tel {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+.time {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+
+/*------------------------------
+メイン
+------------------------------*/
+
+
+/*------------------------------
+ページフッター
+------------------------------*/
+
+
+/* --------------------------------------------
+▼タブレット用デザインとして付け足すデザイン
+-------------------------------------------- */
+
+@media screen and (max-width: 896px) {}
+
+
+/* ------------------------------------ 
+▼スマホ用デザインとして付け足すデザイン
+------------------------------------ */
+
+@media screen and (max-width: 480px) {}
